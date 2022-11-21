@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calculatrice.css">
+</head>
+<body>
+    <script src="./caculatrice.js"></script>
+<table>
+    <thead>
+        <tr id="conteneur">
+            <td colspan="5" id="affichage"></td>
+        </tr>
+
+        <tr>
+            <td class="un"><button onclick="afficher('1')">1</button></td>
+            <td class="un"><button onclick="afficher('2')">2</button></td>
+            <td class="un"><button onclick="afficher('3')">3</button></td>
+            <td class="un"><button onclick="calculer()">=</button></td>
+            <td class="un"><button onclick="supprimer()">C</button></td>
+
+        </tr>
+        <tr>
+            <td class="deux"><button onclick="afficher('4')">4</button></td>
+            <td class="deux"><button onclick="afficher('5')">5</button></td>
+            <td class="deux"><button onclick="afficher('6')">6</button></td>
+            <td class="deux"><button onclick="afficher('*')">*</button></td>
+            <td class="deux"><button onclick="afficher('/')">/</button></td>
+        </tr>
+        <tr>
+            <td class="trois"><button onclick="afficher('7')">7</button></td>
+            <td class="trois"><button onclick="afficher('8')">8</button></td>
+            <td class="trois"><button onclick="afficher('9')">9</button></td>
+            <td class="trois"><button onclick="afficher('+')">+</button></td>
+            <td class="trois"><button onclick="afficher('-')">-</button></td>
+        </tr>
+        <tr>
+            <td colspan="5" class="quatre"><button onclick="afficher('0')">0</button></td>
+        </tr>
+    </thead>
+
+</body>
+</html>

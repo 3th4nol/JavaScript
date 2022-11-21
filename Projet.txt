@@ -1,0 +1,17 @@
+Code : 
+    • Apprendre le javascript :
+        - To do list
+        - Calculatrice
+        - Easter Egg
+        - Test
+
+    • Faire un book Css
+    • Faire un book Js (Site interactif)
+    • Faire le site du lycée
+    • Projet Furies
+
+Montage :
+    • Faire un book de montage
+    • Vidéo présentation
+
+    
