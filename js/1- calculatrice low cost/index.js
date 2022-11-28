@@ -1,11 +1,9 @@
 let operation 
 
 function a(id) {
-
     
     operation = id
     
-
 }
 function resultat(){
 

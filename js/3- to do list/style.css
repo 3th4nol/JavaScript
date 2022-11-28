@@ -28,6 +28,7 @@
 #head{
     display: flex;
     flex-direction: row;
+    padding-top: 20px;
 }
 #add{
     width: 100px;
