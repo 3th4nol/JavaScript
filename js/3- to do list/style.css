@@ -10,7 +10,7 @@
    margin: auto;
 }
 #header{
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     height: 100px;
 }
 #todolist{
@@ -24,6 +24,7 @@
     margin: 5px;
     margin-left: 110px;
     border: transparent;
+    
 }
 #head{
     display: flex;
@@ -66,9 +67,12 @@
 li{
     display: flex;
     align-items: center;
+    margin-left: 10px;
+    text-decoration-line: none;
 }
 .check{
-    color: white;
+    display: none;
+    color:white;
 }
 .flex{
 border-top: 0.1px solid black;
@@ -80,4 +84,7 @@ border-bottom: 0.1px solid black;
 }
 #button:hover{
     background-color: rgb(173, 173, 173);
+}
+.lala{
+    text-decoration-line: line-through;
 }
